@@ -1,0 +1,17 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'd_Kallisto';
+  src: url('../fonts/d_Kallisto.eot');
+  src: url('../fonts/d_Kallisto.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/d_Kallisto.svg#d_Kallisto') format('svg'),
+       url('../fonts/d_Kallisto.ttf') format('truetype'),
+       url('../fonts/d_Kallisto.woff') format('woff'),
+       url('../fonts/d_Kallisto.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'd_Kallisto', sans-serif;
+}
