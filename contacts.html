@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <title>Contacts</title>
+
+  <link rel="SHORTCUT ICON" href="img/logo-for-chrome.ico" type="image/ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/css_contacts/style_contacts.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/css_contacts/media_contacts.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <div class="header-logo">
+        <a href="index.html" class="header-logo-link">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="main-menu">
+        <div class="header-burger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-list">
+            <li><a href="roof.html">Кровля</a></li>
+            <li><a href="roofing_materials.html">Кровельные <br>материалы</a></li>
+            <li><a href="solar_panels.html">Солнечные <br>панели</a></li>
+            <li><a href="smart_house.html">Умный дом</a></li>
+            <li><a class="active-html" href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-button">
+        <a data-fancybox data-src="#modal" href="javascript:;" href="#" class="header-feedback-botton" data-options='{"touch" : false}'	> Обратная связь </a>
+        <hr class="header-feedback-line">
+      </div>
+    </div>
+    <hr class="header-line">
+  </header>
+
+
+
+
+  <div class="all-content">
+    <div class="top-background" style="background-image: url('img/backgraund_fon_contacts.png');">
+      <div class="top-background-container">
+        <span>Контакты</span>
+      </div>
+    </div>
+    <hr class="top-background-line">
+
+    <div class="main">
+      <div class="main-container">
+        <div class="main-textbox">
+          <div class="main-textbox-title">
+            <span>ErgoTechnics</span>
+          </div>
+          <div class="main-textbox-subtitle">
+            <p>Производство кровли из черепицы и профлиста, проектирование и монтаж систем умного дома и солнечных панелей.</p>
+            <p><span>Адрес:</span> <br> РФ, Самарская область, г. Самара, ул. Некрасовская 78.</p>
+            <p><span>Телефоны:</span> <br> +7 846 205-20-33</p>
+            <p><span>E-mail:</span> <br> ofice@ergotechnics.ru</p>
+          </div>
+        </div>
+        <div class="main-photo">
+          <img src="img/main_photo_contacts.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <iframe class="map-iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A94b90862403cb57123a8781fc28529f4026b4a33511b3add1980045c4581f041&amp;source=constructor" frameborder="0"></iframe>
+    </div>
+  </div>
+
+
+
+
+  <div class="feedback-space">
+    <form action="?" method="post" enctype="multipart/form-data"></form>
+    <hr class="feedback-line">
+    <div class="feedback-space-container">
+      <div class="feedback-space-top">
+        <p>Обращайтесь</p>
+      </div>
+      <div class="feedback-space-middle">
+        <div class="feedback-space-name">
+          <p>Ваше имя</p>
+          <input placeholder="Иван Иванов" class="text-border" name="username" type="text">
+          <p>Здесь должны быть только буквы!</p>
+        </div>
+        <div class="feedback-space-mail">
+          <p>Ваш e-mail *</p>
+          <input placeholder="info@ya.ru" class="text-border" name="mail_adress" type="text">
+          <p>E-mail не указан или введен с ошибкой!</p>
+        </div>
+        <div class="feedback-space-phone">
+          <p>Телефон для связи *</p>
+          <input placeholder="+7 (123) 213-45-67" class="text-border" name="phone" type="tel">
+          <p>Телефон не указан или введен с ошибкой!</p>
+        </div>
+      </div>
+
+      <div class="feedback-space-bottom">
+        <div class="feedback-space-checkbox space-1">
+          <input type="checkbox" name="no_robot" value="yes"> Я не робот!
+        </div>
+        <div class="feedback-space-checkbox space-2">
+          <input type="checkbox" name="personal_processing" value="yes"> Согласен на обработку данных!
+        </div>
+        <div class="modal-submit-bottom">
+          <button class="modal-button" type="submit">Отправить</button>
+          <hr class="modal-button-line">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="partners-photos">
+    <div class="partners-1">
+      <a href="#"><img src="img/partner-1.png" alt=""></a>
+    </div>
+    <div class="partners-2">
+      <a href="#"><img src="img/partner-2.png" alt=""></a>
+    </div>
+    <div class="partners-3">
+      <a href="#"><img src="img/partner-3.png" alt=""></a>
+    </div>
+    <div class="partners-4">
+      <a href="#"><img src="img/partner-4.png" alt=""></a>
+    </div>
+    <div class="partners-5">
+      <a href="#"><img src="img/partner-5.png" alt=""></a>
+    </div>
+  </div>
+
+
+  <hr class="footer-line">
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <a href="index.html" class="footer-logo-link">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="footer-menu">
+          <nav class="footer-menu-nav">
+            <ul class="footer-menu-list">
+              <li><a href="roof.html">Кровля</a></li>
+              <li><a href="roofing_materials.html">Кровельные материалы</a></li>
+              <li><a href="solar_panels.html">Солнечные панели</a></li>
+              <li><a href="smart_house.html">Умный дом</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-copyright">
+          <p>© Copyright 2020 — Ergo Technics</p>
+        </div>
+        <div class="footer-bottom-right">
+          <div class="footer-bottom-mail">
+            <a href="#">ofice@ergotechnics.ru</a>
+          </div>
+          <div class="footer-bottom-phone">
+            <a href="#">+7 846 205-20-33</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-button">
+      <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+        <img src="img/top.png" alt="Top" border="none" title="Наверх">
+      </a>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <div id="modal">
+    <div class="modal-header">
+      <img src="img/logo.png" alt="">
+    </div>
+    <div class="modal-main">
+      <form>
+        <div class="modal-textbox">
+          <div class="modal-space-name">
+            <p>Ваше имя</p>
+            <input placeholder="Иван Иванов" class="text-border"  name="username" type="text">
+            <p>Здесь должны быть только буквы!</p>
+          </div>
+          <div class="modal-space-mail">
+            <p>Ваш e-mail *</p>
+            <input placeholder="info@ya.ru" class="text-border"  name="mail_adress" type="text">
+            <p>E-mail не указан или введен с ошибкой!</p>
+          </div>
+          <div class="modal-space-phone">
+            <p>Телефон для связи *</p>
+            <input placeholder="+7 (123) 213-45-67" class="text-border"  name="phone" type="tel">
+            <p>Телефон не указан или введен с ошибкой!</p>
+          </div>
+        </div>
+
+        <div class="modal-submit">
+          <div class="feedback-space-checkbox modal-checkbox">
+            <input type="checkbox" name="no_robot" value="yes"> Я не робот!
+          </div>
+          <div class="feedback-space-checkbox modal-checkbox">
+            <input type="checkbox" name="personal_processing" value="yes"> Согласен на обработку данных!
+          </div>
+          <div class="modal-submit-bottom">
+            <button class="modal-button" type="submit">Отправить</button>
+            <hr class="modal-button-line">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main_contacts.js"></script>
+
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+
+  <script>
+  var smoothJumpUp = function() {
+    if (document.body.scrollTop>0 || document.documentElement.scrollTop>0) {
+      window.scrollBy(0,-80);
+      setTimeout(smoothJumpUp, 4);
+    }
+  }
+
+  window.onscroll = function() {
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrolled > 100) {
+      document.getElementById('upbutton').style.display = 'block';
+    } else {
+      document.getElementById('upbutton').style.display = 'none';
+    }
+  }
+  </script>
+
+
+</body>
+</html>
