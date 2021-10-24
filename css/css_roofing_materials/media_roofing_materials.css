@@ -1,0 +1,361 @@
+@media(max-width: 1440px){
+  /* all-main */
+  .first .photobox img{
+    width: 700px;
+  }
+  .textbox-title{
+    margin-top: 70px;
+  }
+  /* main-block */
+  .tab-box{
+    margin: 160px 0 160px 30px;
+  }
+
+}
+
+@media(max-width: 1260px){
+  /* all-main */
+  .first .photobox img{
+    width: 650px;
+  }
+  .textbox-title{
+    margin-top: 120px;
+  }
+
+}
+
+@media(max-width: 1200px){
+  /* top-background */
+  .top-background{
+    min-height: 330px;
+  }
+  .top-background-container{
+    padding-top: 200px;
+  }
+
+  /* all-main */
+  .all-main{
+    top: -105px;
+  }
+  .photo-block .photobox img{
+    width: 550px;
+  }
+  .textbox-title span{
+    font-size: 26px;
+    line-height: 36px;
+
+  }
+
+  .textbox-title p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 15px 40px 0;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 50px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 50px;
+    margin-left: 15px;
+  }
+
+}
+
+@media(max-width: 1050px){
+  /* all-main */
+  .photo-block .photobox img{
+    width: 500px;
+  }
+  /* main-block */
+  .tab-box{
+    margin: 160px 30px;
+  }
+  .visible-tab p{
+    margin: 40px 335px 40px 0;
+  }
+  .content-left img{
+    width: 300px;
+  }
+  .content-right{
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .content-tile-line{
+    width: 258px;
+  }
+
+  .content-right img{
+    width: 110px;
+    height: 109px
+  }
+  .content-block{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* anchor's */
+
+}
+
+
+@media(max-width: 992px){
+  /* top-background */
+  .top-background-container span{
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .top-background{
+    min-height: 250px;
+  }
+  .top-background-container{
+    padding-top: 150px;
+  }
+
+
+  /* all-main */
+  .all-main{
+    top: -50px;
+  }
+  .photo-block .photobox img{
+    width: 450px;
+  }
+  .textbox-title span{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .textbox-title{
+    margin-top: 10px;
+  }
+  .textbox-title p{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 20px 0px;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+
+  /* main-block */
+  .visible-tab p{
+    margin: 40px 100px 40px 0;
+  }
+  .tab-box label{
+    margin: 0 15px 15px ;
+  }
+
+}
+
+
+@media (max-width: 768px){
+  /* all-main */
+  .all-main{
+    top: 0px;
+    margin-top: 30px;
+  }
+  .photo-block{
+    flex-direction: column;
+  }
+  .photo-block .photobox{
+    order: 1;
+  }
+  .photo-block .textbox{
+    order: 2;
+  }
+  .photo-block .photobox img{
+    width: 550px;
+  }
+  .photo-block .photobox img{
+    margin: 0;
+  }
+
+
+  .textbox-title span{
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .textbox-title p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0px;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .textbox-title{
+    margin: 30px 60px 0;
+  }
+  .textbox-link{
+    margin-left: 60px;
+  }
+
+  /* main-block */
+  .tab-box{
+    margin: 160px 30px;
+  }
+  .visible-tab p{
+    margin: 40px 0 40px 0;
+  }
+
+}
+
+
+@media (max-width: 650px){
+  /* all-main */
+  .photo-block .photobox img{
+    width: 450px;
+  }
+  .photo-block .photobox img{
+    margin: 0;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .textbox-title{
+    margin: 30px 30px 0;
+  }
+  .textbox-link{
+    margin-left: 30px;
+  }
+
+}
+
+@media (max-width: 480px){
+  /* all-main */
+  .photo-block .photobox img{
+    width: 340px;
+  }
+
+
+  .textbox-title span{
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .textbox-title p{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0px;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .textbox-title{
+    margin: 30px 0 0 0;
+  }
+  .textbox-link{
+    margin-left: 0px;
+  }
+
+  /* main-block */
+  .tab-box p{
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+  }
+  .visible-tab p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .tab-box label{
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .tab-box{
+    text-align: center;
+    margin: 160px 15px;
+  }
+
+  /* special command */
+  .partners-photos div{
+    margin: 50px 15px;
+  }
+}
+
+@media (max-width: 390px){
+  /* all-main */
+  .photo-block .photobox img{
+    width: 290px;
+  }
+
+
+  .textbox-title span{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .textbox-title p{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px 0px;
+  }
+
+  .second .textbox, .fourth .textbox, .sixth .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .first .textbox, .third .textbox, .fifth .textbox, .seventh .textbox{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .textbox-title{
+    margin: 30px 0 0 0;
+  }
+  .textbox-link{
+    margin-left: 0px;
+  }
+
+
+  /* main-block */
+  .tab-box p{
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
+  .visible-tab p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .tab-box label{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+
+  /* feedback-front */
+  .feedback-front-title p{
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .feedback-front-subtitle p{
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+}
